@@ -23,6 +23,7 @@ def main():
 
     # Define customized header 
     # [TODO] Add 'id' field in customized header here (Task 2.)
+    #        And fill in your department
     student = Protocol(dept = 'YOUR_DEPT')
     
     # [TODO] Fill in the message payload (Task 2.)
