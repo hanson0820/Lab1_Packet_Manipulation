@@ -13,6 +13,7 @@ class Protocol(Packet):
     # [TODO] add the 2nd string field called 'id' with default value '0000000'
     fields_desc = [
         StrField('dept', 'cs', fmt = 'H', remain = 0),
+        StrField('id', '0000000', fmt = 'H', remain = 0),
         # TODO here
     ]
 
